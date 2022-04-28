@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Controle de notas</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+    <section>
+        <h1>
+            Controle de notas dos alunos
+        </h1>
+
+        <form class="form">
+            <div >
+                <label for="nome">Nome:</label>
+                <input type="text" name="nome" id="nome" placeholder="Digite o nome do aluno">
+
+                <div class="nome"></div>
+            </div>
+            <div>
+                <label for="sobrenome">Sobrenome:</label>
+                <input type="text" name="sobrenome" id="sobrenome" placeholder="Digite o sobrenome do aluno">
+                <div class="sobrenome"></div>
+            </div>
+            <div class="notas">
+                <label for="nota1">Prova 1:</label>
+                <input type="number" id="nota1">
+                <label for="nota2">Prova 2:</label>
+                <input type="number" id="nota2">
+                <label for="nota3">Prova 3:</label>
+                <input type="number" id="nota3">
+            </div>
+            <button class="cadastrar">Cadastrar</button>
+            <button class="cancelar">Cancelar</button>
+        </form>
+
+        <div class="lista">
+            <table>
+                <thead>
+                    <th>Nome</th>
+                    <th>Média</th>
+                    <th>Status</th>
+                </thead>
+
+                <tbody id="tbody">
+
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <script src="assets/js/bundle.js"></script>
+</body>
+</html>

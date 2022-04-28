@@ -1,0 +1,109 @@
+* {
+    margin-bottom: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+section {
+    margin: auto;
+    margin-top: 80px;
+    max-width: 1000px;
+    min-height: 400px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.418);
+}
+
+section h1 {
+    color: white;
+    background-color: #304C89;
+    text-align: center;
+    padding: 15px;
+    border-radius: 8px 0;
+    margin-bottom: 10px;
+}
+
+section label{
+    font-size: 1.1em;
+    margin: 15px;
+}
+
+section div {
+    margin-bottom: 15px;
+}
+
+#nome, #sobrenome {
+    margin: 15px;
+    display: block;
+    padding: 10px;
+    width: 90%;
+    border: 1px solid;
+    border-radius: 3px;
+    outline: 0; /*Remove a borda que se cria no input ao clicar*/
+}
+
+.notas {
+    margin: 25px 0;
+}
+
+#nota1, #nota2, #nota3 {
+    width: 3%;
+    padding: 4px;
+    border: 1px solid;
+    border-radius: 3px;
+    outline: 0;
+    text-align: center;
+}
+
+section button {
+    padding: 8px;
+    width: 100px;
+    margin: 15px 0 15px 15px;
+    background-color: #304C89;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 1px solid;
+    outline: 0;
+    font-size: 0.9em;
+}
+
+section button:hover {
+    background-color: #22355f;
+}
+
+.lista {
+    padding-bottom: 30px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+
+table th, table td {
+    border: 1px solid #ccc;
+    padding: 5px;
+    width: 24%;
+}
+
+table th {
+    background-color: rgb(236, 236, 236);
+}
+
+.reprovado,
+.erro {
+    color: red;
+}
+.erro {
+    margin-left: 15px;
+    font-size: 0.9em;
+}
+.aprovado {
+    color: green;
+}

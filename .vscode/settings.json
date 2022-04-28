@@ -1,0 +1,5 @@
+{
+    "code-runner.executorMap": { //apenas para rodar o ts com code runner, é opcional
+        "typescript": "npx ts-node --files",
+    }
+}
